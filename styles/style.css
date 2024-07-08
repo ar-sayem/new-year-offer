@@ -39,3 +39,33 @@
     font-size: 80px;
     font-weight: 900;
 }
+/* .......discount section start */
+.discount-container{ border: 2px solid red;
+    height: 800px;
+    width: 800px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+.discount-content-msge>h1{
+    color: red;
+    font-size:88px ;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.discount-content-msge>h5{
+    color: red;
+    font-size: 24px;
+}
+
+.discount-content-msge>h3{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 10px;
+}
+.discount-content-img{
+    margin-top: 48px;
+}
+
