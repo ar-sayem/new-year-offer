@@ -114,3 +114,84 @@ margin-top: 10px;
     border: 2px dashed whitesmoke;
     margin-left:130px;
  }
+ /* ..........discount-section................ */
+.location-container{ 
+width: 1320px;
+height: 480px;
+text-align: center;
+margin: 0 auto;
+background-color:#ffe6e6 ;
+margin-bottom: 120px;
+
+}
+.location-content{
+    margin-top: 100px;
+}
+.location-content>p{
+
+    font-size:32px ;
+    font-weight: 600;
+}
+.location-content span{
+    color: red;
+}
+.location-container button{
+    background-color: red;
+    color: white;
+    font-size: 38px;
+    margin-top:48px;
+    border: none;
+    border-radius: 10px;
+    padding:5px;
+}
+.holi-offer-container{ 
+    width: 1320px;
+    height:460px ;
+    display: flex;
+    margin: 0 auto;
+
+}
+.one{ 
+    width: 393px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.one h5{
+    font-size: 20px;
+    color: red; margin-bottom: 10px;
+}
+.one h2{
+    font-size:60px;
+    color: black;
+}
+.one p{
+    color: rgba(7, 2, 17, 0.6);
+}
+.two{border: 10px solid red;
+    width: 463px;
+    height: 460px;
+    text-align:center;
+    border-radius: 50%;
+    position: relative;
+    bottom:50px;
+    left: 50px;
+    padding-top: 30px;
+  }
+
+ .three{ 
+    width: 276px;
+   position:relative;
+   left: 200px;
+   top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .three h3{ color: red;
+    font-size: 48px;
+  }
+  /* ...............gift section........... */
