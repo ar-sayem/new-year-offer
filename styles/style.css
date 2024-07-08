@@ -195,7 +195,7 @@ margin-bottom: 120px;
     font-size: 48px;
   }
   /* ...............holidays section........... */
-  .holiday-container{ border: 2px solid red;
+  .holiday-container{ 
     width: 1320px;
     height:980px ;
    
@@ -235,8 +235,74 @@ margin-bottom: 120px;
     border: 2px dashed gray;
 
 }
-.discount{
+.discount2{
     position: relative;
   left: 200px;
   border: 2px dashed gray;
 }
+/* ..............product image section........... */
+.product-img-container{
+    width: 1320px;
+    height: 1160px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+   
+}
+.description-container{ 
+    width: 100%;
+    height: 140px;
+
+    margin-bottom: 20px;
+}
+.description-container h5{
+    font-size: 29px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.description-container h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.product-img-content{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* ...........subscribe section............. */
+.subscribe{
+    width: 1320px;
+    height: 620px;
+    margin: 0 auto;
+    background-color: #fff2f2;
+    padding:40px 30px;
+}
+
+.subscribe div{ 
+    text-align: center;
+  
+   
+
+}
+.subscribe .title{
+    color: red;
+    font-size: 60px;
+    font-weight: 900;
+}
+.subscribe .para{
+    font-size: 24px;
+}
+.subscribe .btn input,button{ 
+    font-size: 25px;
+    padding: 5px; 
+    margin-top: 30px;
+ }
+ .btn input{ border-radius:30px 0 0 30px ;
+border: 2px 0 2px 2px solid gray;
+}
+ .btn button{
+    border: 2px 2p 2px 0;
+    background-color: red;
+    color: white;
+    border-radius: 0 30px 30px 0;
+ }
