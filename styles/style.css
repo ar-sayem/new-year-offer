@@ -194,4 +194,49 @@ margin-bottom: 120px;
   .three h3{ color: red;
     font-size: 48px;
   }
-  /* ...............gift section........... */
+  /* ...............holidays section........... */
+  .holiday-container{ border: 2px solid red;
+    width: 1320px;
+    height:980px ;
+   
+    margin: 0 auto;
+    margin-bottom: 120px;
+  
+  }
+  .heading{
+    text-align: center;
+  }
+  .heading h5{
+    font-size: 24px;
+    font-weight:500 ;
+  }
+  .heading h1{
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  .holiday>span{color: red;}
+
+  .heading p{
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 8px;
+  }
+  .red-bottom{
+    height:230px ;
+    width: 1320px;
+    background-color:red;
+    position:relative;
+    top:0px;
+} 
+.gift-box{
+    position: relative;
+    top:230px;
+    z-index: 1;
+    border: 2px dashed gray;
+
+}
+.discount{
+    position: relative;
+  left: 200px;
+  border: 2px dashed gray;
+}
