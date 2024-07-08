@@ -10,7 +10,7 @@
     margin-top: 30px;
 }
 .banner-content{
-    border: 2px solid red;
+   
     margin: 0 auto;
     max-width: 1320px;
     height:600px;
@@ -40,7 +40,7 @@
     font-weight: 900;
 }
 /* .......discount section start */
-.discount-container{ border: 2px solid red;
+.discount-container{ 
     height: 800px;
     width: 800px;
     margin: 120px auto;
@@ -66,6 +66,51 @@
     margin-top: 10px;
 }
 .discount-content-img{
+    border: 2px dashed gray;
     margin-top: 48px;
 }
-
+/* .............party-section */
+.party-container{
+    height:600px;
+    max-width: 1320px;
+    margin: 0 auto;
+ /* background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 10%); */
+    background-image:url(../images/Vectorrr.png) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    
+}
+.party-content{
+    width:90%px;
+    height:464px ;
+    margin: 0 auto;
+   
+    display: flex;
+   
+}
+.party-content>.party-section-msge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+ }
+ .party-content>.party-section-msge>h1{
+    font-size:64px ;
+    font-weight: 900;
+    margin-bottom: 20px;
+ }
+ .party-section-msge button{
+margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: white;
+ }
+ .party-content>.img{
+    border: 2px dashed whitesmoke;
+    margin-left:130px;
+ }
